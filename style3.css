@@ -1,0 +1,95 @@
+
+body{
+    font: 15px Helvetica , Arial;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: #3e42cd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+h3{
+    color: #159;
+}
+.back{
+    margin-left: 10px;
+}
+form{
+    margin-left: 160px;
+    width: 30%;
+    float: left;
+}
+.container{
+    margin-top: 3em;
+    color: #000;
+}
+input{
+    display: table;
+    margin-bottom: 1em;
+    width: 60%;
+    font-size: 16px;
+    border: 2px solid #159;
+    border-radius: 5px;
+    padding: 3px;
+}
+/* #file{
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+} */
+
+    
+#Generate, button{
+    color: #fff;
+    background: #159;
+    padding: 5px;
+    border: 2px solid #159;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* #result{
+    position: relative;
+    width: auto ;
+    margin-left: 15%;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 2em;
+} */
+.content{
+    width: 80%;
+}
+.content img{
+    width: 80px;
+    height: 105px;
+    margin-left: 7px;
+    margin-top: 12px;
+}
+.content ul{
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}
+.content ul li{
+    list-style-type: none;
+}
+@media only screen and (max-width: 786px){
+    .container, form{
+        width: 90%;
+        margin-left: 5px;
+    }
+    #result{
+        margin-left: 0;
+    }
+}

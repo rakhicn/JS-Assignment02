@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <title>Student Id Card Generator</title>
+</head>
+<body>
+<div class="header">
+    <nav class="navbar navbar-dark">
+        <h1>Id Crad Generator</h1>
+      </nav>
+</div>
+<br>
+<br>
+<br>
+<div class="back">
+    <form>
+        <h3>Enter Student Details</h3>
+
+
+        <label>Enter Name:</label>
+        <input type="text" id="inName" placeholder="">
+        <label>Enter Collage Name:</label>
+        <input type="text" id="inCollageName" placeholder="">
+        <label>Enter Location:</label>
+        <input type="text" id="inLocation" placeholder="">
+        <label for="file" class="upload">Enter Student's Picture:</label>
+        <br>
+        <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+        
+        <button type="submit" id="Generate Card">Generate Card</button>
+    </form>
+   
+</div>
+<div class="container">
+    <div class="class" id="result"></div>
+</div>
+<div class="content">
+    <img src="" id="imgDisplayed">
+    <ul>
+        <li id="name"></li>
+        <li id="collage"></li>
+        <li id="location"></li>
+    </ul>
+</div>
+    <script src="style3.css"></script>
+   </body>
+</html>
