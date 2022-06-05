@@ -12,16 +12,13 @@ body{
     text-align: center;
     
 }
-/* .container h2{
+.container h2{
     font-weight: 300;
-    font-size: 30px;
-    padding-top: 50px;
+    font-size: 40px;
+    padding-top: 200px;
     margin: 0;
-} */
-h1{
-    margin: 0;
-    padding: 0;
 }
+
 .clock{
     color: white;
     padding: 30px 50px;
